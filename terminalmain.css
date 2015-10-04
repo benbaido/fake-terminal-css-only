@@ -1,0 +1,126 @@
+/*For the terminal*/
+
+/* tags */
+body {
+    padding: 50px;
+    margin: 0px;
+}
+
+/* terminal */
+
+#terminal {
+    background: black;
+    width: 600px;
+    height: 280px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    
+    font-family: "Consolas", "monospace" sans-serif;
+    color: lawngreen;
+    font-size: 10pt;
+}
+
+#terminal_header, #terminal_footer {
+    background: #2c2c2c;
+    color: ghostwhite;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    margin: 0px;
+}
+
+#terminal_close {
+    background: red;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 20px;
+    height: 6%;
+}
+
+#terminal_min {
+    background: skyblue;
+    position: absolute;
+    top: 0px;
+    right: 28px;
+    width: 20px;
+    height: 6%;
+}
+
+#terminal_output {
+    width: 97%;
+    height: 85%;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: justify;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*scrollbar */
+#terminal_output::-webkit-scrollbar {
+    width: 5px;
+}
+
+#terminal_output::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+#terminal_output::-webkit-scrollbar-thumb {
+    background-color: #222;
+}
+
+#terminal_output::-webkit-scrollbar-button {
+    background-color: black;
+    color: #333;
+}
+
+#terminal_output::-webkit-scrollbar-corner {
+    background-color: black;
+}
+
+
+#pathdiv {
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    width: 18%;
+    padding-left: 2px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+#terminal_input {
+    background: black;
+    width: 81%;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: "Consolas", "monospace" sans-serif;
+    color: lawngreen;
+    font-size: 10pt;
+}
+
+#terminal_footer {
+    position: absolute;
+    bottom: -5px;
+}

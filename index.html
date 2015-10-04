@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Playing with textareas</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="terminalmain.css" />
+    </head>
+    <body>
+        <h1>Fake Terminal</h1> <!--
+        <h2>Output</h2>
+        <p>This is where the output will go</p>
+        <div></div>
+        <h2>Input</h2>
+        <p>This is where the input will go</p> -->
+        <div id="terminal">
+            <div id="terminal_header">~@fake
+                <div id="terminal_min"></div>
+                <div id="terminal_close"></div>
+            </div>
+            <div id="terminal_output">
+                <p>Welcome to the fake terminal. There's not much to do here. Enter the help command if you're unsure of how this all works...</p>
+            </div>
+            <!--<textarea rows="1" id="terminal_input"></textarea>-->
+            <div id="pathdiv">~/portfolio > </div>
+            <input type="text" id="terminal_input" />
+            <div id="terminal_footer"></div>
+        </div>
+    </body>
+    <script src="terminal.js"></script>
+</html>
